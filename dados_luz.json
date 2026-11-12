@@ -1,0 +1,108 @@
+{
+  "itens": [
+    {
+      "nome": "Microfone",
+      "local": "Sede",
+      "sala": "Sala de Podcast",
+      "status": "No local",
+      "evento": ""
+    },
+    {
+      "nome": "Projetor",
+      "local": "Sede",
+      "sala": "Sala de Treinamentos",
+      "status": "No local",
+      "evento": ""
+    },
+    {
+      "nome": "Caixa de som",
+      "local": "Estoque",
+      "sala": "Prateleiras",
+      "status": "No local",
+      "evento": ""
+    },
+    {
+      "nome": "Banner Luz",
+      "local": "Estoque",
+      "sala": "Caixas de Evento",
+      "status": "No local",
+      "evento": ""
+    },
+    {
+      "nome": "Iphone 13 pro",
+      "local": "Sede",
+      "sala": "Marketing",
+      "status": "Em evento",
+      "evento": "Evento tal"
+    },
+    {
+      "nome": "Iphone 13 pro max",
+      "local": "Sede",
+      "sala": "Marketing",
+      "status": "No local",
+      "evento": ""
+    },
+    {
+      "nome": "algo ai",
+      "local": "Sede",
+      "sala": "Marketing",
+      "status": "No local",
+      "evento": ""
+    },
+    {
+      "nome": "a",
+      "local": "Sede",
+      "sala": "Podcast",
+      "status": "No local",
+      "evento": ""
+    }
+  ],
+  "consumiveis": [
+    {
+      "nome": "Café",
+      "local": "Sede",
+      "qtd": 2,
+      "minimo": 3
+    },
+    {
+      "nome": "Papel higiênico",
+      "local": "Sede",
+      "qtd": 12,
+      "minimo": 8
+    },
+    {
+      "nome": "Crachás",
+      "local": "Estoque",
+      "qtd": 100,
+      "minimo": 200
+    }
+  ],
+  "registro": [
+    "09/11/2026 | Domingos | Cadastrou Iphone 13 pro em Sede > Marketing",
+    "09/11/2026 | Domingos | Cadastrou Iphone 13 pro max em Sede > Marketing",
+    "09/11/2026 | Domingos | Cadastrou algo ai em Sede > Marketing",
+    "09/11/2026 | dom | Cadastrou a em Sede > Podcast",
+    "09/11/2026 | Domingos | SAÍDA: Caixa de som de Estoque > Prateleiras para Penedo encontro 5",
+    "09/11/2026 | Domingos | VOLTA: Caixa de som do evento Penedo encontro 5 para Estoque > Prateleiras",
+    "09/11/2026 | Domingos | Café (Sede): -4, saldo 2",
+    "09/11/2026 | Domingos | SAÍDA: Iphone 13 pro de Sede > Marketing para Evento tal",
+    "10/11/2026 | Domingos | Cadastrou consumível Crachás: 2000",
+    "10/11/2026 | Domingos | Crachás (Estoque): -200, saldo 1800",
+    "10/11/2026 | Domingos | Crachás (Estoque): -1700, saldo 100"
+  ],
+  "locais": {
+    "Sede": [
+      "Sala de Podcast",
+      "Sala de Treinamentos",
+      "Marketing",
+      "Diretoria",
+      "Administrativo",
+      "Lounge",
+      "Podcast"
+    ],
+    "Estoque": [
+      "Prateleiras",
+      "Caixas de Evento"
+    ]
+  }
+}
